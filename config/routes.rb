@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get 'equipments/new'
   root to: 'equipments#index'
   devise_for :users
+  resources :equipments
 end
